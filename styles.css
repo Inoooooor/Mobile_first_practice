@@ -11,6 +11,12 @@ p {
     font-weight: 600;
 }
 
+/* Hiding part in mobile version */
+header, .localization {
+    position: absolute;
+    left: -100%;
+}
+
 h1 {
     font-size: 3em;
 }
