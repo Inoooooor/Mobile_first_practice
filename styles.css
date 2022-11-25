@@ -22,6 +22,9 @@ section {
     height: 100vh;
     /* margin: 15% 10%; */
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name {
@@ -170,4 +173,45 @@ section {
 
 a {
     color: black;
+}
+
+section:last-of-type {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.contacts_content {
+    height: 80%;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_media_icons {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_media_icons img {
+    width: 13%;
+}
+
+.send_button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.like_me {
+    color: #828282;
 }
