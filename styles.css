@@ -26,7 +26,6 @@ h2 {
 }
 section {
     height: 100vh;
-    /* margin: 15% 10%; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -169,7 +168,6 @@ section {
 
 .example {
     width: 80%;
-    /* max-width: 400px; */
     height: 33%;
     display: flex;
     flex-direction: column;
