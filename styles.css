@@ -21,6 +21,7 @@ h2 {
 section {
     height: 100vh;
     /* margin: 15% 10%; */
+    min-height: 100vh;
 }
 
 .name {
@@ -83,7 +84,7 @@ section {
 }
 
 .skills {
-    min-height: 200vh;
+    min-height: 300vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -113,7 +114,7 @@ section {
 }
 
 .programs img {
-    width: 25%;
+    width: 30%;
     object-fit: contain;
 }
 
@@ -134,4 +135,39 @@ section {
 
 .programs span {
     color: #E5E5E5;
+}
+
+.portfolio {
+    background-color: #f6f6f6;
+    min-height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_content {
+    position: relative;
+    top: 5%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.example {
+    width: 80%;
+    /* max-width: 400px; */
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.example  img{
+    object-fit: contain;
+    width: 100%;
+}
+
+a {
+    color: black;
 }
