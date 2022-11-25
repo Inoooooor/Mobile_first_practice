@@ -176,7 +176,7 @@ section {
     align-items: center;
     justify-content: space-evenly;
 }
-.example  img{
+.example img{
     object-fit: contain;
     width: 100%;
 }
